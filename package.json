@@ -1,0 +1,25 @@
+{
+  "name": "jscodeshift-core-api",
+  "version": "1.0.0",
+  "description": "Lean package with just the 'core' api of jscodeshift",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jscodeshift",
+    "codemod",
+    "ast",
+    "node"
+  ],
+  "author": "Andres Garcia Hurtado",
+  "license": "ISC",
+  "dependencies": {
+    "recast": "git+ssh://git@github.com/Angarsk8/recast.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  }
+}
