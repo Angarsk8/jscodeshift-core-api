@@ -1,16 +1,12 @@
 {
   "name": "jscodeshift-core-api",
   "version": "1.0.0",
-  "description": "Lean package with just the 'core' api of jscodeshift",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "jscodeshift",
-    "codemod",
+    "metaprogramming",
+    "codemods",
     "ast",
-    "node"
+    "abstract-syntax-tree"
   ],
   "author": "Andres Garcia Hurtado",
   "license": "ISC",

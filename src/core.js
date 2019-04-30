@@ -23,7 +23,7 @@ for (var name in collections) {
  * - an array of nodes
  * - an array of node paths
  *
- * @exports jscodeshift
+ * @exports coreApi
  * @param {Node|NodePath|Array|string} source
  * @param {Object} options Options to pass to Recast when passing source code
  * @return {Collection}
@@ -92,8 +92,8 @@ const plugins = [];
 /**
  * Utility function for registering plugins.
  *
- * Plugins are simple functions that are passed the core jscodeshift instance.
- * They should extend jscodeshift by calling `registerMethods`, etc.
+ * Plugins are simple functions that are passed the core instance.
+ * They should extend core by calling `registerMethods`, etc.
  * This method guards against repeated registrations (the plugin callback will only be called once).
  *
  * @augments core
