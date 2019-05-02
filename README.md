@@ -1,6 +1,6 @@
 # Description
 
-Subset of the [jscodeshift](https://github.com/facebook/jscodeshift) core API. Intended to be as a Node.js module.
+Subset of the [jscodeshift](https://github.com/facebook/jscodeshift) core API. Intended to be used as a Node.js module.
 
 ## Limitations
 
